@@ -130,10 +130,10 @@ header {
 }
 
 #mute-toggle {
-    position: fixed;
+    position: fixed !important;
     top: 1.2rem;
     right: 1.5rem;
-    z-index: 1001;
+    z-index: 2147483647 !important;
     background: rgba(39, 180, 235, 0.85);
     color: #fff;
     border: none;
@@ -144,13 +144,13 @@ header {
     cursor: pointer;
     box-shadow: 0 2px 8px #0003;
     transition: background 0.2s;
-    pointer-events: auto;
+    pointer-events: auto !important;
 }
 
 .bg-video,
 .bg-video iframe,
 .overlay {
-    pointer-events: none;
+    pointer-events: none !important;
 }
 
 #mute-toggle:hover {
