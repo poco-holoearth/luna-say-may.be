@@ -263,7 +263,12 @@ header {
     }
 
     .share-buttons {
-        margin-bottom: 0.5rem;
+        position: static;
+        top: unset;
+        z-index: unset;
+        background: none;
+        margin-bottom: 0.2rem;
+        padding-top: 0;
     }
 
     .share-btn-group {
