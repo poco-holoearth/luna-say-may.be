@@ -262,8 +262,23 @@ header {
         font-size: 1.2rem;
     }
 
+    .share-buttons {
+        margin-bottom: 0.5rem;
+    }
+
     .share-btn-group {
         gap: 0.5rem;
+    }
+
+    .share-btn {
+        width: 36px;
+        height: 36px;
+        font-size: 1rem;
+    }
+
+    .share-btn svg {
+        width: 20px;
+        height: 20px;
     }
 
     .music-links {
